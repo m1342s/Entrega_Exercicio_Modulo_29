@@ -24,19 +24,18 @@ export const VagaStyled = styled.li`
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
-
     @media (max-width: 768px) {
       display: block;
     }
-    :hover {
-      background-color: var(--cor-principal);
-      color: var(--cor-secundaria);
-      a {
-        border-color: var(--cor-principal);
-        background-color: var(--cor-secundaria);
-        color: var(--cor-principal);
-      }
-    }
+  }
+  :hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+  }
+  :hover a {
+    border-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
   }
 `
 type Props = {
